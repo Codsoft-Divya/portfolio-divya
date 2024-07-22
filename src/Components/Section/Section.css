@@ -1,0 +1,118 @@
+.projects {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+}
+
+.project-container {
+    padding: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 90vw;
+    gap: 5vw;
+}
+
+.project-container-column1 .project-container-column1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 35vw;
+}
+
+.project-container-column1 img, .project-container-column2 img {
+    width: 600px;
+    height: 725px;
+    border-radius: 13px;
+    object-fit: cover;
+    transition: transform 1s ease, box-shadow 0.3s ease;
+} 
+
+.project-container-column1 img:hover, .project-container-column2 img:hover {
+    transform: scale(0.9); 
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+}
+
+.project-container-column1-project1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    line-height: 0.3rem;
+}
+
+.about-homepage {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.about-homepage-container {
+    display: flex;
+    /* align-items: center;
+    justify-content: center; */
+    width: 60%;
+    font-family:Georgia, 'Times New Roman', Times, serif ;
+    font-weight: 100;
+    font-size: 1.8rem;
+    flex-direction: column;
+    padding: 8rem;
+}
+
+.about-homepage-container-desc {
+    font-family:Georgia, 'Times New Roman', Times, serif ;
+    font-weight: 100;
+    font-size: 1.5rem;
+    flex-direction: column;
+    line-height: 3rem;
+}
+
+.about-homepage-container-more {
+    display: flex;
+    padding: 3rem 0;
+    font-weight: 550;
+    color:black;
+    text-decoration: none;
+}
+
+.about-homepage-container-more a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.about-homepage-container-more a :hover {
+    text-decoration: underline;
+    color: inherit;
+}
+
+.contact {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.contact-container {
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+}
+
+.contact-container-desc {
+    display: flex;
+    width: 60%;
+    font-size: 1.5rem;
+    font-weight: 500;
+    color: rgb(153, 153, 153);
+}
+
+.contact-container-mail {
+    display: flex;
+    width: 60%;
+    font-size: 3rem;
+    font-weight: 500;
+    color: rgb(0, 0, 0);
+}
