@@ -15,29 +15,37 @@
 
 .about-container-title {
     padding: 3rem 0;
-    font-size: 3rem;
+    font-size: 3.2rem;
     font-weight: 700;
-    font-family:Arial, Helvetica, sans-serif;
+    font-family:Georgia, 'Times New Roman', Times, serif;
     display: flex;
     justify-content: flex-start;
     width: 80%;
+    line-height: 4rem;
 }
 
 .about-container-desc {
     padding: 3rem 0;
-    font-size: 1.2rem;
+    font-size: 1.3rem;
     font-weight: 300;
-    font-family:Arial, Helvetica, sans-serif;
+    font-family:Georgia, 'Times New Roman', Times, serif;
     display: flex;
     justify-content: flex-start;
     width: 80%;
+    line-height: 2.5rem;
+    color: rgb(70, 70, 70);
+}
+
+.about-container-image {
+    width: 80%;
+    padding: 3rem;
 }
 
 .about-container-experience {
-    padding: 3rem 0;
+    padding: 1rem 0;
     font-size: 2rem;
     font-weight: 700;
-    font-family:Arial, Helvetica, sans-serif;
+    font-family:Georgia, 'Times New Roman', Times, serif ;
     display: flex;
     justify-content: flex-start;
     width: 80%;
@@ -51,14 +59,18 @@
     align-items: center;
 }
 
-.about-container-experience-column-1 {
+/* .about-container-experience-column-1 {
     font-size: 1.5rem;
     gap: 10px;
-}
+    line-height: 0.8rem;
+    color: rgb(70, 70, 70);
+} */
 
 .about-container-experience-column-2 {
     font-size: 1.5rem;
     gap: 20px;
+    line-height: 0.8rem;
+    color: rgb(70, 70, 70);
 }
 
 .about-container-education {
@@ -67,7 +79,7 @@
     padding: 5rem;
     font-size: 2rem;
     font-weight: 700;
-    font-family:Arial, Helvetica, sans-serif;
+    font-family:Georgia, 'Times New Roman', Times, serif ;
     width: 80%;
 }
 
@@ -79,17 +91,17 @@
 
 .about-container-education-graduation {
     font-size: 1.2rem;
-    font-family:Arial, Helvetica, sans-serif;
+    font-family:Georgia, 'Times New Roman', Times, serif ;
 }
 
 .about-container-education-diploma {
     font-size: 1.2rem;
-    font-family:Arial, Helvetica, sans-serif;
+    font-family:Georgia, 'Times New Roman', Times, serif ;
 }
 
 .about-container-education-secondry {
     font-size: 1.2rem;
-    font-family:Arial, Helvetica, sans-serif;
+    font-family:Georgia, 'Times New Roman', Times, serif ;
 }
 
 .about-container-skills {
@@ -98,8 +110,9 @@
     padding: 5rem 0;
     font-size: 2rem;
     font-weight: 700;
-    font-family:Arial, Helvetica, sans-serif;
+    font-family:Georgia, 'Times New Roman', Times, serif ;
     width: 80%;
+    line-height: 2.5rem;
 }
 
 .about-container-skills-container {
@@ -111,7 +124,7 @@
     /* flex-direction: column; */
     padding: 1rem 0;
     font-size: 1.2rem;
-    font-family:Arial, Helvetica, sans-serif;
+    font-family:Georgia, 'Times New Roman', Times, serif ;
     width: 80%;
     font-weight: 100;
 }
@@ -122,7 +135,7 @@
     padding: 5rem 0;
     font-size: 2rem;
     font-weight: 700;
-    font-family:Arial, Helvetica, sans-serif;
+    font-family:Georgia, 'Times New Roman', Times, serif ;
     width: 80%;
 }
 
@@ -131,7 +144,7 @@
     /* flex-direction: column; */
     padding: 1rem 0;
     font-size: 1.2rem;
-    font-family:Arial, Helvetica, sans-serif;
+    font-family:Georgia, 'Times New Roman', Times, serif ;
     width: 80%;
     font-weight: 100;
 }

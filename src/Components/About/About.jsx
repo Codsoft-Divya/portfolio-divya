@@ -1,43 +1,44 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import Header from '../Header/Header'
 import Footer from '../Footer/Footer'
 import './About.css'
 import SectionEmail from '../Section/SectionEmail'
+import mainImage from '..//..//Assets/Images/Divya.png'
 
 const About = () => {
+    useEffect(() => {
+        window.scrollTo(0, 0);
+      }, []);
   return (
     <div className='about'>
         <div className='about-container'>
             <Header />
             <div className='about-container-title'>
-                Full Stack Developer specializing in<br/> end-to-end
-                application development<br/>
-                and seamless user experiences.
+            Full Stack Developer committed to<br /> 
+            designing robust, full-spectrum <br /> 
+            applications with user-centric design.<br />
             </div>
             <div className='about-container-desc'>
-                I'm Divya, a beginer full stack developer with a little experience in dynamic startup environment.<br/>
-                Throughout my career, I've led end-to-end design projects, specializing in optimizing user experiences and driving product evolution.<br/>
-                I thrive in problem-solving, prioritizing user-centric needs, and delivering high-quality designs that elevate user satisfaction.<br />
+                I'm Divya, a beginner full stack developer with some experience in dynamic startup environments.<br />
+                I've led end-to-end design projects, focusing on optimizing user experiences and driving<br />
+                product evolution. I excel in problem-solving,prioritizing user needs, and delivering high-quality designs<br />
+                enhance user satisfaction.<br />
                 <br />
-                In previous roles, I've worked on strategic initiatives that significantly enhanced product metrics and user engagement.<br/>
-                I excel in guiding comprehensive design projects, from strategic planning and user research to UI/UX design and seamless collaboration across teams.<br/>
-                With a strong foundation in scalable design thinking and usability principles, I leverage diverse design tools and methodologies to achieve impactful outcomes.<br/>
-                <br/>
-                My expertise lies in developing intuitive product user interfaces and fostering collaborative environments that<br/>
-                integrate design, engineering, and product management. I am dedicated to pushing boundaries and delivering best outcomes<br/>
-                that align with user expectations and achieve business goals.
+                In previous roles, I led projects that improved product metrics and user engagement. I manage design projects<br />
+                from planning and user esearch to UI/UX design and team collaboration. With a strong foundation in design <br />
+                thinking and usability, I use various tools and methods to achieve impactful results.<br />
+                <br />
+                
+                My expertise is in creating intuitive user interfaces and fostering teamwork between design, engineering, and <br/>
+                product management. I am dedicated to delivering results that meet user needs and business objectives.<br />
+                <br />
             </div>
             <div className='about-container-image'>
-                {/* <img src={mainImage} alt="full Stack developer" /> */}
+                <img src={mainImage} alt="full Stack developer" />
             </div>
             <div className='about-container-experience'>
                 Work Experience
                 <div className='about-container-experience-column'>
-                    <div className='about-container-experience-column-1'>
-                        <h2>Full Stack Developer</h2>
-                        <h5>Appican</h5>
-                        <h5>2023-Present</h5>
-                    </div>
                     <div className='about-container-experience-column-2'>
                         <h2>Digital Markerter</h2>
                         <h5>Freelance</h5>
@@ -97,7 +98,7 @@ const About = () => {
                 </div>
             </div> */}
             <SectionEmail />
-            <Footer />
+            {/* <Footer /> */}
         </div>
     </div>
   )

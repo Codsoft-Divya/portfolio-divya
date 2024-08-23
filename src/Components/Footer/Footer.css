@@ -1,15 +1,70 @@
 .footer{
-    width: 100%;
+    width: 80%;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
 .footer-container {
-    width: 60%;
+    width: 100%;
     display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.footer-container-form {
+    width: 50%;
+    padding: 7rem 0;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+
+.footer-container-form-name, .footer-container-form-mail, .footer-container-form-message {
+    padding: 0.8rem;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-container-form-submit {
+    margin-left: 2rem;
+    padding: 15px 35px;
+    color: white;
+    background-color: red;
+    border: none;
+    font-weight: 600;
+    border-radius: 10px;
+}
+
+.footer-container-form-social {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 1rem;
+    font-weight: 500;
+    border: none;
+    text-decoration: underline;
+    background: none;
+    cursor: pointer;
+}
+
+.footer-container-form-social-linkedin, .footer-container-form-social-git {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 2rem;
+    font-weight: 500;
+    border: none;
+    text-decoration-line: underline;
+}
+
+
+.footer-container-copyright {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
     font-size: 0.8rem;
     font-weight: 500;
     color: rgb(124, 124, 124);
-    padding: 15rem 0 3rem 0;
+    padding: 5rem 0 3rem 0;
 }
